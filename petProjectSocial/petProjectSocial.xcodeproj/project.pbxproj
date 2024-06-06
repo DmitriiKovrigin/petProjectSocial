@@ -11,6 +11,12 @@
 		2D5011B82C103B680086C6E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5011B72C103B680086C6E5 /* ContentView.swift */; };
 		2D5011BA2C103B690086C6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5011B92C103B690086C6E5 /* Assets.xcassets */; };
 		2D5011BD2C103B690086C6E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5011BC2C103B690086C6E5 /* Preview Assets.xcassets */; };
+		2D8A40112C11736B003E90E3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40102C11736B003E90E3 /* Coordinator.swift */; };
+		2D8A40132C117399003E90E3 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40122C117399003E90E3 /* CustomTabBar.swift */; };
+		2D8A40152C1173C1003E90E3 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40142C1173C1003E90E3 /* TabBarButton.swift */; };
+		2D8A40172C1173DC003E90E3 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */; };
+		2D8A40192C1173F6003E90E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40182C1173F6003E90E3 /* SettingsView.swift */; };
+		2D8A401B2C11740B003E90E3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A401A2C11740B003E90E3 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2D5011B72C103B680086C6E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D5011B92C103B690086C6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5011BC2C103B690086C6E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D8A40102C11736B003E90E3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2D8A40122C117399003E90E3 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2D8A40142C1173C1003E90E3 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
+		2D8A40182C1173F6003E90E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2D8A401A2C11740B003E90E3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		2D5011B42C103B680086C6E5 /* petProjectSocial */ = {
 			isa = PBXGroup;
 			children = (
+				2D8A40122C117399003E90E3 /* CustomTabBar.swift */,
 				2D5011B52C103B680086C6E5 /* petProjectSocialApp.swift */,
 				2D5011B72C103B680086C6E5 /* ContentView.swift */,
 				2D5011B92C103B690086C6E5 /* Assets.xcassets */,
 				2D5011BB2C103B690086C6E5 /* Preview Content */,
+				2D8A40102C11736B003E90E3 /* Coordinator.swift */,
+				2D8A40142C1173C1003E90E3 /* TabBarButton.swift */,
+				2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */,
+				2D8A40182C1173F6003E90E3 /* SettingsView.swift */,
+				2D8A401A2C11740B003E90E3 /* UserView.swift */,
 			);
 			path = petProjectSocial;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8A40192C1173F6003E90E3 /* SettingsView.swift in Sources */,
+				2D8A40172C1173DC003E90E3 /* PhotoGalleryView.swift in Sources */,
+				2D8A40132C117399003E90E3 /* CustomTabBar.swift in Sources */,
+				2D8A401B2C11740B003E90E3 /* UserView.swift in Sources */,
 				2D5011B82C103B680086C6E5 /* ContentView.swift in Sources */,
 				2D5011B62C103B680086C6E5 /* petProjectSocialApp.swift in Sources */,
+				2D8A40152C1173C1003E90E3 /* TabBarButton.swift in Sources */,
+				2D8A40112C11736B003E90E3 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

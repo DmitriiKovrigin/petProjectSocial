@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var coordinator = Coordinator()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer()
+            ZStack {
+                switch coordinator.selectedTab {
+                case 0:
+                    PhotoGalleryView()
+                case 1:
+                    UserView(userImage: $coordinator.userImage)
+                case 2:
+                    SettingsView()
+                default:
+                    UserView(userImage: $coordinator.userImage)
+                }
+            }
+            Spacer()
+            CustomTabBar(coordinator: coordinator)
         }
-        .padding()
     }
 }
 
