@@ -11,25 +11,29 @@ struct ContentView: View {
     @StateObject private var coordinator = Coordinator()
 
     var body: some View {
-        VStack {
-            Spacer()
-            ZStack {
-                switch coordinator.selectedTab {
-                case 0:
-                    PhotoGalleryView()
-                case 1:
-                    UserView(userImage: $coordinator.userImage)
-                case 2:
-                    SettingsView()
-                default:
-                    UserView(userImage: $coordinator.userImage)
+        NavigationView {
+            VStack {
+                Spacer()
+                ZStack {
+                    switch coordinator.selectedTab {
+                    case 0:
+                        PhotoGalleryView()
+                    case 1:
+                        UserView(coordinator: coordinator)
+                    case 2:
+                        SettingsView()
+                    default:
+                        UserView(coordinator: coordinator)
+                    }
                 }
+                Spacer()
+                CustomTabBar(coordinator: coordinator)
             }
-            Spacer()
-            CustomTabBar(coordinator: coordinator)
         }
     }
 }
+
+
 
 #Preview {
     ContentView()

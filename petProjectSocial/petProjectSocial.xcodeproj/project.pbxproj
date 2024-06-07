@@ -17,6 +17,7 @@
 		2D8A40172C1173DC003E90E3 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */; };
 		2D8A40192C1173F6003E90E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A40182C1173F6003E90E3 /* SettingsView.swift */; };
 		2D8A401B2C11740B003E90E3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A401A2C11740B003E90E3 /* UserView.swift */; };
+		2D8A401D2C1176B3003E90E3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A401C2C1176B2003E90E3 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		2D8A40182C1173F6003E90E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2D8A401A2C11740B003E90E3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		2D8A401C2C1176B2003E90E3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				2D8A40162C1173DC003E90E3 /* PhotoGalleryView.swift */,
 				2D8A40182C1173F6003E90E3 /* SettingsView.swift */,
 				2D8A401A2C11740B003E90E3 /* UserView.swift */,
+				2D8A401C2C1176B2003E90E3 /* ImagePicker.swift */,
 			);
 			path = petProjectSocial;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				2D8A40192C1173F6003E90E3 /* SettingsView.swift in Sources */,
 				2D8A40172C1173DC003E90E3 /* PhotoGalleryView.swift in Sources */,
 				2D8A40132C117399003E90E3 /* CustomTabBar.swift in Sources */,
+				2D8A401D2C1176B3003E90E3 /* ImagePicker.swift in Sources */,
 				2D8A401B2C11740B003E90E3 /* UserView.swift in Sources */,
 				2D5011B82C103B680086C6E5 /* ContentView.swift in Sources */,
 				2D5011B62C103B680086C6E5 /* petProjectSocialApp.swift in Sources */,
